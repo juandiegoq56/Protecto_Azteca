@@ -1,0 +1,71 @@
+.card-container {
+  display: flex;
+  
+  justify-content: center;
+  
+  }
+  .dashboard{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-wrap: wrap;
+    width: 95%;
+    
+  }
+  .contenedor{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 96%;
+   
+  }
+  .herramientas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    width: 95%;
+  }
+  
+  .Gestores{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-wrap: wrap;
+    width: 95%;
+    
+  }
+  .card {
+    align-content: center;
+    background-color: rgb(255, 239, 92);
+    border: 1px solid rgb(224, 226, 229);
+    border-radius: 4px;
+    box-shadow: 1px 1px 2px rgb(136, 136, 136);
+    height: 155px;
+    margin: 6px;
+    overflow: hidden;
+    padding: 4px 2px 5px;
+    width: 155px;
+     /* Determina el tamaño base de las tarjetas (3 en una fila) */
+    text-decoration: none; /* Quita el subrayado del enlace */
+    color: inherit; /* Mantiene el color del texto heredado */
+     /* Agrega una transición suave para la transformación */
+     
+  }
+  .card:hover {
+    opacity: 0.8; /* Aplica una opacidad reducida al pasar el cursor por encima */
+  }
+  
+  
+  .card h1 {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  
+  .card p {
+    font-size: 14px;
+    color: #666;
+  }
+
+ 
